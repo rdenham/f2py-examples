@@ -5,6 +5,9 @@
 Simple examples of using `f2py` to get high-speed Fortran integrated with Python easily.
 These examples are also useful to troubleshoot problems with `f2py`.
 
+This is a fork of the scivision repo, where I restructure the package slightly.
+
+
 ## Build
 
 Fortran compiler is needed:

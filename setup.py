@@ -7,7 +7,8 @@ site.ENABLE_USER_SITE = True
 
 setup(
     ext_modules=[
-        Extension(name="pyprod", sources=["prod.f90"]),
-        Extension(name="badprec", sources=["badprec.f90"]),
+        Extension(name="f2pydemo.pyprod", sources=["src/f2pydemo/prod.f90"]),
+        Extension(name="f2pydemo.badprec", sources=["src/f2pydemo/badprec.f90"]),
+        Extension(name="f2pydemo.vecmed", sources=["src/f2pydemo/vecmedian.f90"])
     ]
 )
